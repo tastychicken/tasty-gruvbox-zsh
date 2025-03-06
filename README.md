@@ -27,9 +27,11 @@ SOLARIZED_THEME="dark"
 
 1. Clone repo to your source directory.
 2. Symlink `tasty-gruvbox.zsh-theme` to `~/.oh-my-zsh/custom/themes/tasty-gruvbox.zsh-theme`:
-`ln -s ~/src/zsh/tasty-gruvbox-zsh/tasty-gruvbox.zsh-theme tasty-gruvbox.zsh-theme`
-3. Uncomment the source line to `~/.zsh/lib/git.zsh`.
-4. Enable the theme by adding the following to your `~/.zshrc`:
+```
+ln -s ~/src/zsh/tasty-gruvbox-zsh/tasty-gruvbox.zsh-theme ~/.oh-my-zsh/custom/themes/tasty-gruvbox.zsh-theme
+```
+4. Uncomment the source line to `~/.zsh/lib/git.zsh`.
+5. Enable the theme by adding the following to your `~/.zshrc`:
 ```
 ZSH_THEME="tasty-gruvbox"
 SOLARIZED_THEME="dark"
