@@ -2,12 +2,13 @@
 # See: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes
 
 # Uncomment for development
-#. ~/.oh-my-zsh/lib/git.zsh > /dev/null
+. ~/.oh-my-zsh/lib/git.zsh > /dev/null
 
 # Colors
 # Based on: https://github.com/morhetz/gruvbox
 COL_FG1="#a89984"
 COL_FG2="#ebdbb2"
+COL_FG3="#bdae93"
 COL_BG1="#3c3836"
 COL_BG2="#2b2829"
 COL_GREEN1="#98971a"
@@ -80,7 +81,7 @@ prompt_machine() {
 }
 
 prompt_context() {
-  prompt_segment $COL_FG1 $COL_BG1 "%B"
+  prompt_segment $COL_FG3 $COL_BG1 "%B"
   prompt_icon
   echo -n "%b"
 }
