@@ -2,7 +2,7 @@
 # See: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes
 
 # Uncomment for development
-. ~/.oh-my-zsh/lib/git.zsh > /dev/null
+#. ~/.oh-my-zsh/lib/git.zsh > /dev/null
 
 # Colors
 # Based on: https://github.com/morhetz/gruvbox
