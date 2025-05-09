@@ -69,7 +69,7 @@ prompt_end() {
 
 prompt_icon() {
   OS_LOGO="\ue712" # 
-  echo -n "%{$OS_LOGO%}"
+  echo -n "$OS_LOGO"
 }
 
 prompt_user() {
@@ -81,9 +81,8 @@ prompt_machine() {
 }
 
 prompt_context() {
-  prompt_segment $COL_FG3 $COL_BG1 "%B"
+  prompt_segment $COL_FG3 $COL_BG1
   prompt_icon
-  echo -n "%b"
 }
 
 prompt_location() {
